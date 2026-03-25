@@ -1,0 +1,12 @@
+name: mindmarket
+version: 1.0.0
+description: Community prediction market for Reddit subreddits.
+permissions:
+  - reddit
+  - kvStore
+  - scheduler
+  - realtime
+  - modActions
+schedulerJobs:
+  - name: checkExpiredPredictions
+    cron: 0 0 * * *

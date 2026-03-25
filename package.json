@@ -1,0 +1,18 @@
+{
+  "name": "mindmarket",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "devvit build",
+    "upload": "devvit upload",
+    "publish": "devvit publish"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.16"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "private": true,
+  "license": "BSD-3-Clause"
+}
